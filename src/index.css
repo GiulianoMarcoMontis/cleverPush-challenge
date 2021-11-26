@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100vh;
+  max-width: 1024px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  background-color: #fcf6f6;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+.button {
+  background-color: gray;
+  padding: 1rem 1.8rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+.error {
+  background-color: red;
+  color: white;
+  cursor: initial;
+}
+
+.iFrame {
+  width: 100%;
+  border-radius: 1rem;
+  background-color: ivory;
+}
+
+.ChildFrame {
+  background-color: khaki;
 }
